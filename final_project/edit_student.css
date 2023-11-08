@@ -1,0 +1,76 @@
+/* Style for the container */
+.card {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  /* Style for the logo */
+  .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the title */
+  .title h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the form container */
+  .form-container {
+    margin: auto;
+    width: 80%;
+  }
+  
+  /* Style for the form labels */
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the form inputs */
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="tel"],
+  .form-container input[type="number"],
+  .form-container select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for the form radio buttons */
+  .form-container input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Style for the form submit button */
+  .form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Style for the form submit button on hover */
+  .form-container button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

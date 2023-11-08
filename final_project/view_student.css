@@ -1,0 +1,141 @@
+/* Define the styles for the page header */
+.card {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Define the styles for the university logo */
+.logo img {
+  height: 70px;
+}
+
+/* Define the styles for the page title */
+.title h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Define the styles for the table */
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: darkorange;
+  color: white;
+}
+
+td {
+  position: relative;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td a.edit-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #008CBA; /*changed color to blue*/
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 75px;
+  z-index: 1;
+}
+
+td a.delete-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #dc1b1b; /*changed color to red*/
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  margin-right: 5px;
+}
+
+a.edit-button {
+  background-color: #008CBA;
+  border: 1px solid #008CBA;
+}
+
+a.delete-button {
+  background-color: #dc1b1b;
+  border: 1px solid #dc1b1b;
+}
+
+
+a.delete-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.edit-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*making buttons visible*/
+.edit,
+.delete {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+color: #fff;
+background-color: #dc1b1b;
+border-color: #2e6da4;
+
+  text-decoration: none;
+}
+.delete-btn {
+    color: red;
+  }
+  
+  

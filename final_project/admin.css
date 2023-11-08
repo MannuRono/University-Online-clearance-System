@@ -1,0 +1,117 @@
+/* admin.css */
+
+body {
+    background-color: #5c5959;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    background-color: #db8b0b ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.logout {
+    background-color: orange;
+    color: white; /* Change the text color to white */
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #eee;
+    min-width: 200px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .manage button {
+    display: block;
+    background-color: #E46F1A;
+    border: none;
+    color: #f3f0ee;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+nav .manage .submenu {
+    display: none;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+nav .manage:hover .submenu {
+    display: block;
+}
+
+nav .manage .submenu li {
+    margin-bottom: 5px;
+}
+
+nav .manage .submenu a {
+    color: #E46F1A;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff;
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #E46F1A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
